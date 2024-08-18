@@ -70,6 +70,18 @@
             font-style: italic;
             color: #4a90e2;
         }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd; /* Optionnel: ajoute une bordure autour de l'image */
+            border-radius: 8px; /* Optionnel: arrondit les coins de l'image */
+        }
     </style>
 </head>
 
@@ -85,13 +97,13 @@
         <div class="passion">
             <h3 class="highlight">Histoire</h3>
             <p>L'histoire est une fenêtre sur le passé, une manière de comprendre d'où nous venons pour mieux appréhender notre avenir. Je consacre beaucoup de temps à lire, analyser et discuter des événements qui ont façonné notre monde.</p>
-        </div>
-        
-        <!-- Ajout de l'image --container">
-            <img src="images/revolution-francaise.jpg" alt="Tableau de la Révolution Française">
+
+            <!-- Ajout de l'image -->
+            <div class="image-container">
+                <img src="images/revolution-francaise.jpg" alt="Tableau de la Révolution Française">
             </div>
         </div>
-        
+
         <div class="passion">
             <h3 class="highlight">Langue française</h3>
             <p>La langue française est une passion que j'entretiens avec soin. J'adore jouer avec les mots, explorer les subtilités de la grammaire et la richesse du vocabulaire pour exprimer des idées de manière élégante et précise.</p>
@@ -119,4 +131,5 @@
 </body>
 
 </html>
+
 
